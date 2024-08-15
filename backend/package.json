@@ -1,0 +1,28 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx ts-node src/server.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "openai": "^4.55.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4",
+    "uuid": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/cookie-parser": "^1.4.7",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.2.0",
+    "@types/uuid": "^10.0.0"
+  }
+}
